@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.goods,
+.basket {
+    display: flex;
+    justify-content: space-around;
+}
+
+.goods_apples,
+.goods_pears,
+.goods_bananas {
+    width: 200px;
+    min-height: 200px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+
+}
+
+h4 {
+    text-align: center;
+}
+
+.buy,
+.del {
+    display: block;
+    margin: auto;
+}
