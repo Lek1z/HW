@@ -26,3 +26,11 @@ a {
     text-decoration:none;
     color: #fff;
 }
+
+.basket-list {
+    display: none;
+}
+
+.basket-list.shown {
+    display: block;
+}
